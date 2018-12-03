@@ -2,13 +2,6 @@ var gulp = require('gulp');
 var autoprefixer = require('gulp-autoprefixer');
 var server = require('gulp-server-livereload');
 var sass = require('gulp-sass');
-var pug = require('gulp-pug');
-
-gulp.task('build', function build() {
-  return gulp.src('**.pug')
-    .pipe(pug(options))
-    .pipe(gulp.dest('out'));
-});
 
 gulp.task('sass', function () {
   gulp.src('scss/main.scss')
