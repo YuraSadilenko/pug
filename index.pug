@@ -27,6 +27,13 @@ html(lang="en-En")
         div.menu__footer
           a(href="tel.9125551214").menu__link.menu__link--footer (912)5551214 
           a(href="#").menu__link.menu__link--footer example@gmail.com
+        mixin social(soc)
+          li.menu__social
+            a(href="#").menu__social--link=soc
+        ul.menu__socials
+          +social("f")
+          +social("g")
+          +social("t")
 
         
 

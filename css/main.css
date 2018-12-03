@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   margin: auto;
   width: 40rem;
-  padding: 2rem 6rem;
+  padding: 6rem 6rem;
   text-align: justify;
   font-size: 3rem;
   font-weight: 100;
@@ -53,3 +53,23 @@ body {
   .menu__footer {
     border-top: 1px solid #fff;
     padding: 5rem 0; }
+  .menu__socials {
+    display: flex;
+    justify-content: space-between; }
+  .menu__social {
+    list-style: none; }
+    .menu__social--link {
+      display: block;
+      text-align: center;
+      width: 6rem;
+      height: 6rem;
+      padding: 1rem;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #fff;
+      transition: .5s; }
+      .menu__social--link:hover {
+        background-color: #fff;
+        color: #565d67;
+        font-weight: 700; }
